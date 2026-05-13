@@ -1,31 +1,20 @@
-# Lost and Found
+Lost and Found
+Lost and Found ir moderna tīmekļa lietotne, kas izstrādāta, lai palīdzētu cilvēkiem ziņot par pazaudētām vai atrastām mantām, veicinot kopienas savstarpējo palīdzību.
 
-## Local development
+Tehnoloģijas
+Projekts ir izstrādāts, izmantojot mūsdienīgu "stack":
 
-This project is a Vite + React + TypeScript application.
+React – lietotāja saskarnes izveidei.
 
-### Install dependencies
+TypeScript – drošākai un strukturētākai koda rakstīšanai.
 
-```sh
-npm install
-```
+Vite – ātrai izstrādei un būvēšanai (build).
 
-### Run in development
+Funkcijas
+Ziņojumu pievienošana: Lietotāji var pievienot ierakstus par pazaudētiem vai atrastiem priekšmetiem.
 
-```sh
-npm run dev
-```
+Meklēšana un filtrēšana: Iespēja meklēt lietas pēc kategorijām vai atrašanās vietas.
 
-### Build for production
+Attēlu augšupielāde: Iespēja pievienot fotoattēlus, lai vieglāk identificētu mantas.
 
-```sh
-npm run build
-```
-
-## Technologies used
-
-- Vite
-- React
-- TypeScript
-- Tailwind CSS
-- shadcn-ui
+Kontakti: Droša saziņa starp atradēju un īpašnieku.
