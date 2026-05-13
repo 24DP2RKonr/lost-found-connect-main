@@ -30,7 +30,11 @@ class AuthController extends Controller
             'name' => $user->name,
         ]);
 
-        event(new Registered($user));
+        try {
+            event(new Registered($user));
+        } catch (\Exception $e) {
+            // Email sending failed, continue anyway
+        }
 
         $token = $user->createToken('auth_token')->plainTextToken;
 
