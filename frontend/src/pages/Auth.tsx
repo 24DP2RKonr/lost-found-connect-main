@@ -49,10 +49,8 @@ const Auth = () => {
     if (error) {
       toast({ title: "Kļūda", description: error.message, variant: "destructive" });
     } else {
-      toast({
-        title: "Reģistrācija veiksmīga!",
-        description: "Lūdzu, pārbaudiet savu e-pastu, lai apstiprinātu kontu.",
-      });
+      toast({ title: "Reģistrācija veiksmīga!", description: "Laipni lūgti!" });
+      navigate("/profile");
     }
   };
 
